@@ -23,18 +23,18 @@ const Education = () => {
           <div className="text-center md:text-left">
             <Space direction="vertical">
               <h5 className="dark:text-white font-bold text-center md:text-left">
-                Jawaharlal Nehru National College of Engineering
+                Institute of Road and Transport Technology
               </h5>
               <div>
                 <h5 className="dark:text-white !font-medium">
                   Bachelor of Engineering
                 </h5>
                 <p className="dark:text-white font-light text-base">
-                  Computer Science and Engineering
+                  Electrical and Electronics and Engineering
                 </p>
                 <div>
                   <p className="dark:text-white font-light text-base">
-                    August 2017 - September 2021
+                    August 2015 - May 2019
                   </p>
                 </div>
               </div>
@@ -42,7 +42,7 @@ const Education = () => {
           </div>
         </div>
         <Divider />
-        <div className="flex flex-col items-center gap-x-5 flex-wrap md:flex-row">
+        {/* <div className="flex flex-col items-center gap-x-5 flex-wrap md:flex-row">
           <div className="mb-4 md:mb-0">
             <img
               src={DVSLogo}
@@ -68,7 +68,7 @@ const Education = () => {
               </div>
             </Space>
           </div>
-        </div>
+        </div> */}
       </Space>
     </div>
   );

@@ -63,7 +63,7 @@ const Header = () => {
         <div>
           <a href="/" className="logo">
             <span className="grey-color dark:text-white"> &lt;</span>
-            <span className="logo-name dark:text-white">Shashank Rao</span>
+            <span className="logo-name dark:text-white">Bala San</span>
             <span className="grey-color dark:text-white">/&gt;</span>
           </a>
         </div>

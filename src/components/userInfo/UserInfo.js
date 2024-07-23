@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Lottie from "lottie-react";
 import React from "react";
 import { Link } from "react-scroll";
-import Resume from "../../assets/Resume/ShashankRaoS_Resume.pdf";
+import Resume from "../../assets/Resume/bala_resume.pdf";
 import developerImage from "../../assets/images/developerImage.json";
 import "./UserInfo.css";
 const UserInfo = () => {
@@ -19,7 +19,7 @@ const UserInfo = () => {
       <div className="w-full flex flex-wrap">
         <div className="w-full md:w-[70%]">
           <h1 className="text-[30px] sm:text-[60px] leading-[1.1] text-black my-5 flex dark:text-white">
-            Hi all, I'm Shashank Rao
+            Hi all, I'm Balamurugan
             <span className="handWave">
               <img
                 alt="👋"
@@ -45,17 +45,17 @@ const UserInfo = () => {
             </p>
           </div>
           <div className="social-icons">
-            <a href="https://github.com/ShashankRaos27" className="icon github">
+            <a href="https://github.com/sankrishbala" className="icon github">
               <FontAwesomeIcon icon={faGithub} />
             </a>
             <a
-              href="https://www.linkedin.com/in/shashank-rao-s-3058b5195/"
+              href="https://www.linkedin.com/in/balamurugan-s-815383187?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
               className="icon linkedin"
             >
               <FontAwesomeIcon icon={faLinkedinIn} />
             </a>
             <a
-              href="mailto:shashankrao2708@gmail.com"
+              href="mailto:sankrishbala17@gmail.com"
               className="icon envelope"
             >
               <FontAwesomeIcon icon={faEnvelope} />
@@ -85,7 +85,7 @@ const UserInfo = () => {
             </button>
 
             <button className="buttonClass">
-              <a href={Resume} download="shashankraos_resume">
+              <a href={Resume} download="bala_resume">
                 Download My Resume
               </a>
             </button>
