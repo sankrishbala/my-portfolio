@@ -1,0 +1,69 @@
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.icon:hover {
+  background-color: black !important; /* Change background color on hover */
+}
+
+.icon.github {
+  background-color: #333;
+}
+.icon.linkedin {
+  background-color: #0077b5;
+}
+.icon.envelope {
+  background-color: #c71610;
+}
+.icon.gitlab {
+  background-color: #e24329;
+}
+.icon.facebook {
+  background-color: #3b5998;
+}
+.icon.medium {
+  background-color: #000;
+}
+.icon.stackoverflow {
+  background-color: #f48024;
+}
+
+.buttonClass {
+  background-color: #55198b;
+  border: solid 1px #55198b;
+  color: #ffffff;
+  font-weight: 700;
+  width: max-content;
+  padding: 13px 22px;
+  margin-right: 50px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+}
+.dev-icons {
+  padding-left: 0;
+  list-style: none;
+  font-size: 3rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
