@@ -1,6 +1,6 @@
 import React from "react";
 import jnnceLogo from "../../assets/images/jnnce.png";
-import DVSLogo from "../../assets/images/DVSLogo.jpg";
+// import DVSLogo from "../../assets/images/DVSLogo.jpg";
 import { Divider, Space } from "antd";
 const Education = () => {
   return (
