@@ -118,15 +118,6 @@ const Skills = () => {
                 React.js
               </p>
             </div>
-            <div className="inline-block mr-5 mb-5 group" name="nodejs">
-              <FontAwesomeIcon
-                icon={faNode}
-                className="mb-2 text-[#868e96] dark:text-white group-hover:text-[#407AFF]"
-              />
-              <p className="text-base text-[#868e96] dark:text-white group-hover:text-[#407AFF]">
-                Node.js
-              </p>
-            </div>
             <div className="inline-block mr-5 mb-5 group" name="css3">
               <FontAwesomeIcon
                 icon={faCss3Alt}
@@ -143,15 +134,6 @@ const Skills = () => {
               />
               <p className="text-base text-[#868e96] dark:text-white group-hover:text-[#407AFF]">
                 JavaScript
-              </p>
-            </div>
-            <div className="inline-block mr-5 mb-5 group" name="sql-database">
-              <FontAwesomeIcon
-                icon={faSolidDatabase}
-                className="mb-2 text-[#868e96] dark:text-white group-hover:text-[#407AFF]"
-              />
-              <p className="text-base text-[#868e96] dark:text-white group-hover:text-[#407AFF]">
-                SQL Database
               </p>
             </div>
           </div>

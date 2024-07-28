@@ -8,7 +8,7 @@ const Loading = () => {
         <Lottie animationData={loadingAnimation} />
         <div className="text-center">
           <span className="grey-color dark:text-white"> &lt;</span>
-          <span className="logo-name dark:text-white">Shashank Rao</span>
+          <span className="logo-name dark:text-white">Balamurugan</span>
           <span className="grey-color dark:text-white">/&gt;</span>
         </div>
       </div>

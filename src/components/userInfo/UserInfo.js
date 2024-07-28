@@ -15,7 +15,7 @@ import developerImage from "../../assets/images/developerImage.json";
 import "./UserInfo.css";
 const UserInfo = () => {
   return (
-    <div className="w-[90%] p-5 py-2.5 px-5 mx-auto mt-20">
+    <div className="w-[90%] p-5 py-2.5 px-5 mx-auto mt-32">
       <div className="w-full flex flex-wrap">
         <div className="w-full md:w-[70%]">
           <h1 className="text-[30px] sm:text-[60px] leading-[1.1] text-black my-5 flex dark:text-white">

@@ -2,6 +2,7 @@ import { MoonOutlined, SunOutlined } from "@ant-design/icons";
 import { Switch } from "antd";
 import React, { useEffect, useRef, useState } from "react";
 import { Events, Link, scrollSpy } from "react-scroll";
+import devLogo from "../../assets/images/devLogo.jpg"
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -62,9 +63,7 @@ const Header = () => {
       <div className="flex justify-between items-center py-4 px-5">
         <div>
           <a href="/" className="logo">
-            <span className="grey-color dark:text-white"> &lt;</span>
-            <span className="logo-name dark:text-white">Bala San</span>
-            <span className="grey-color dark:text-white">/&gt;</span>
+            <img src={devLogo} alt="dev-logo" className=" w-24 h-24"/>
           </a>
         </div>
         <div className="hidden md:flex flex-wrap items-center gap-5">

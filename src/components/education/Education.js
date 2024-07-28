@@ -1,6 +1,6 @@
 import React from "react";
 import jnnceLogo from "../../assets/images/jnnce.png";
-// import DVSLogo from "../../assets/images/DVSLogo.jpg";
+import GCELogo from "../../assets/images/GCE_logo.jpg"
 import { Divider, Space } from "antd";
 const Education = () => {
   return (
@@ -15,15 +15,15 @@ const Education = () => {
         <div className="flex flex-col items-center gap-x-5 flex-wrap md:flex-row">
           <div className="mb-4 md:mb-0">
             <img
-              src={jnnceLogo}
+              src={GCELogo}
               alt="jnnce"
-              className="rounded-3xl w-24 h-24 shadow-2xl "
+              className="rounded-3xl w-[28rem] h-[6rem] shadow-2xl "
             />
           </div>
           <div className="text-center md:text-left">
             <Space direction="vertical">
               <h5 className="dark:text-white font-bold text-center md:text-left">
-                Institute of Road and Transport Technology
+                Goverment College of Engineering, Erode
               </h5>
               <div>
                 <h5 className="dark:text-white !font-medium">

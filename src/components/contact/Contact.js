@@ -26,13 +26,13 @@ const Contact = () => {
           </p>
         </div>
         <div className="w-full md:w-[50%] flex justify-center md:justify-end mt-5 md:mt-0">
-          <div className="rounded-full border-4 border-blue-500 overflow-hidden w-60 h-60">
+          {/* <div className="rounded-full border-4 border-blue-500 overflow-hidden w-60 h-60">
             <img
               src="https://avatars.githubusercontent.com/u/91655038?s=400&u=fbdeb9bccb8e09c7588bf5d6bca6767671f96723&v=4"
               alt="profile pic"
               className="w-full h-full object-cover"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

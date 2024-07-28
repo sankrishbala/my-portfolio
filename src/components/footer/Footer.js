@@ -11,7 +11,7 @@ const Footer = () => {
           src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/2764.png"
           className=" inline h-[1em] w-[1em] mx-[0.05em] ml-[0.1em] my-0 align-[-0.1em]"
         />{" "}
-        By SHASHANK RAO
+        By BALAMURUGAN
       </p>
     </div>
   );
