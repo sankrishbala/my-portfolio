@@ -63,7 +63,7 @@ const Header = () => {
       <div className="flex justify-between items-center py-4 px-5">
         <div>
           <a href="/" className="logo">
-            <img src={devLogo} alt="dev-logo" className=" w-24 h-24"/>
+            <img src={devLogo} alt="dev-logo" className=" w-24 h-24 dark:!bg-black" />
           </a>
         </div>
         <div className="hidden md:flex flex-wrap items-center gap-5">
