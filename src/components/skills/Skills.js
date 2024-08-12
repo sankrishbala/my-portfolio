@@ -2,7 +2,6 @@ import {
   faCss3Alt,
   faHtml5,
   faJs,
-  faNode,
   faNpm,
   faReact,
   faSass,
@@ -16,7 +15,6 @@ import {
 import {
   faGlobe,
   faServer,
-  faDatabase as faSolidDatabase,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Lottie from "lottie-react";

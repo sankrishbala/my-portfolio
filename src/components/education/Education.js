@@ -1,5 +1,4 @@
 import React from "react";
-import jnnceLogo from "../../assets/images/jnnce.png";
 import GCELogo from "../../assets/images/GCE_logo.jpg"
 import { Divider, Space } from "antd";
 const Education = () => {
