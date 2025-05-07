@@ -10,7 +10,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Lottie from "lottie-react";
 import React from "react";
 import { Link } from "react-scroll";
-import Resume from "../../assets/Resume/bala_resume.pdf";
+// import Resume from "../../assets/Resume/bala_resume.pdf";
+import Resume from '../../assets/Resume/Bala_React_dev.pdf'
 import developerImage from "../../assets/images/developerImage.json";
 import "./UserInfo.css";
 const UserInfo = () => {
@@ -85,7 +86,7 @@ const UserInfo = () => {
             </button>
 
             <button className="buttonClass">
-              <a href={Resume} download="bala_resume">
+              <a href={Resume} download="Bala_React_dev">
                 Download My Resume
               </a>
             </button>
